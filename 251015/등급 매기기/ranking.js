@@ -8,6 +8,8 @@ for(let i = 0; i<5; i++) {
     if(score >= (90 - i*10)) {
         console.log(grade[i]);
         break;
+    } else if(score < 60) {
+        console.log(grade[4]);
+        break;
     }
 }
-//if(score < 60) console.log(grade[4]);
