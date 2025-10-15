@@ -10,4 +10,4 @@ for(let i = 0; i<5; i++) {
         break;
     }
 }
-if(score < 60) console.log(grade[4]);
+//if(score < 60) console.log(grade[4]);
